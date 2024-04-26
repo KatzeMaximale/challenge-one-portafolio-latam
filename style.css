@@ -42,13 +42,66 @@ https://en.bem.info/methodology/quick-start/*/
 /*Sección Menu*/
 
 section.menu{
-    /*esto es una prueba de actualizacion*/
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 150px;
+    
+    margin-top: 20px;  
+    
 }
+
+.menu__list{
+    display: flex;
+    gap: 15px;
+
+}
+
+.menu__header{
+    display: flex;
+    align-items:center;
+    gap: 0.5rem;
+    font-weight: bold;
+}
+
+.menu__list>li:nth-child(6){
+    font-weight: bold;
+}
+
+.menu__list__item__contato{
+    display: none;
+}
+
+
 
 /*Sección Title*/
 
 section.title{
+    display: flex;
+    margin-top: 60px;
+    width: 80%;
+    margin-left: 150px;
+}
 
+.title__div{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    
+    
+}
+
+.title__bio{
+    font-weight:bold;
+    width: 1000px;
+    font-size:60px;
+    color:grey;
+}
+
+.title__subsection{
+    font-weight:normal;
+    width: 1000px;
+    font-size:25px;
 }
 
 /*Sección About*/
